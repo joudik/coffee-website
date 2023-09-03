@@ -1,0 +1,45 @@
+.test--quote {
+    background-color: var(--container-color);
+    padding: 2.5rem 2rem 3rem;
+    border-radius: var(--radius);
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.test--icon {
+    position: absolute;
+    bottom: -1.75rem;
+    left: 2.5rem;
+    font-size: var(--big-font-size);
+    color: var(--container-color);
+}
+
+.test--content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.test--img-wrapper {
+    border: 2px dashed var(--first-color);
+    padding: 0.25rem;
+    width: 80px;
+    height: 80px;
+    margin-inline: 1.25rem;
+}
+
+.test--img-wrapper,
+.test--img {
+    border-radius: 50%;
+}
+
+.test-title {
+    font-size: var(--larger-font-size);
+}
+
+.test--rate {
+    display: flex;
+    column-gap: 0.25rem;
+    color: var(--first-color);
+    margin-top: 0.25rem;
+}
